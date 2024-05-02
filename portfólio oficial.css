@@ -61,15 +61,6 @@ footer section
     margin-bottom: -20px;
 }
 
-.texto-negrito {
-    font-weight: normal;
-    transition: font-weight 0.3s ease;
-}
-
-.texto-negrito:hover {
-    font-weight: bold;
-}
-
 .elemento-com-transicao-opacidade {
     opacity: 1;
     transition: opacity 0.3s ease;
@@ -77,26 +68,6 @@ footer section
 
 .elemento-com-transicao-opacidade:hover {
     opacity: 0.8;
-}
-
-.botao {
-    background-color: var(--cor-primaria);
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.botao:hover {
-    background-color: #32456e;
-}
-
-.elemento-com-translacao {
-    transition: transform 0.3s ease;
-}
-
-.elemento-com-translacao:hover {
-    transform: translateY(-5px);
 }
 
 .imagem-com-escala {
