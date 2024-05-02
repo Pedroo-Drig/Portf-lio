@@ -1,10 +1,13 @@
-header
+header div
 {
     background-color: #11284d; 
-    margin-top: -37px; 
-    margin-right: -20px; 
-    margin-left: -20px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -10px; 
+    width: 1226px; 
+    height: 150px;
+    margin-top: -40px;
+    text-align: center;
+    align-items: center;
 }
 
 body
@@ -16,49 +19,50 @@ body
 header h1
 {
     font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
 }
 
-main div
-{
+.div-hover-meio{
     background-color: #32456e;
     width: 550px;
     border-radius: 25px;
     text-align: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
-main div:hover
-{   
+.div-hover-meio:hover{   
     text-align: center; 
     border-radius: 20px;
     background-color: #21365d;
-    font-size: 25px;
+    transform: scale(1.1);
     transition: 0.3s;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-ul
-{
-    list-style-type: none;
-    background-color: #32456e; 
-    font-family: Arial, Helvetica, sans-serif
-}
-
-table 
-{
+.div-hover-inicio{
+    text-align: center; 
+    border-radius: 20px;
     background-color: #32456e;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-footer section
+.div-hover-inicio:hover{
+    text-align: center; 
+    background-color: #21365d;
+    transform: scale(1.1);
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer div
 {    
-    margin-right: -20px; 
-    margin-left: -20px;
     background-color: #11284d;
-    margin-top: -15px;
-    margin-bottom: -20px;
+    margin: 0;
+    padding: 0;
 }
 
 .elemento-com-transicao-opacidade {
